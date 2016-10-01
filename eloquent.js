@@ -29,7 +29,7 @@ function isEven (n) {
   else if (n===1)
     return false;
   else if (n<0)
-    return isEven (-n)
+    return isEven (-n) //perform isEven function on negative number.
   else
     return isEven(n-2)
 };
